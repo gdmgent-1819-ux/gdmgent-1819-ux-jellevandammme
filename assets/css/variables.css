@@ -1,26 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+@font-face {
+    font-family: 'font_shuiregular';
+    src: url('fonts/fontshui-webfont.woff2') format('woff2'),
+        url('fonts/fontshui-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 :root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+    /** colors */
+    --c-ahs-geel: hsl(51, 62%, 48%);
+    --c-ahs-rood: hsl(0, 67%, 34%);
+    --c-ahs-background: #fff1a8;
+    --c-ahs-grijs: hsl(0, 0%, 80%);
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
+    --c-primary: var(--c-ahs-geel);
+    --c-secondary: var(--c-ahs-rood);
+    --c-background: var(--c-ahs-background);
+    --c-gray: var(--c-ahs-grijs);
 
-  /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+    /** fonts */
+    --f-normal: 'Roboto', sans-serif;
+    --f-condensed: 'Roboto Condensed', sans-serif;
+    --f-fancy: 'font_shuiregular';
 }
 
 
